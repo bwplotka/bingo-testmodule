@@ -19,3 +19,5 @@ func main() {
 	}
 	log.Println("it might look like buildable but it's not - non main package.")
 }
+
+func Public() string { return "nothing" }
