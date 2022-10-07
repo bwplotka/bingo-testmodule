@@ -10,6 +10,8 @@ import (
 	"github.com/oklog/run"
 )
 
+// Some comment.
+
 func main() {
 	log.SetFlags(0)
 
