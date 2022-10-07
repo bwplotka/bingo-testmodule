@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/efficientgo/core/errors"
-	"github.com/oklog/run"
+	run "github.com/oklog/run-v100"
 )
 
 func main() {
