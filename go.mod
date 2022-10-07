@@ -1,4 +1,4 @@
-module github.com/bwplotka/bingo-testmodule
+module github.com/bwplotka/bingo-testmodule/v2
 
 go 1.19
 
