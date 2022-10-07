@@ -1,6 +1,6 @@
 module github.com/bwplotka/bingo-testmodule
 
-go 1.15
+go 1.16
 
 require (
 	github.com/efficientgo/core v1.0.0-rc.0
