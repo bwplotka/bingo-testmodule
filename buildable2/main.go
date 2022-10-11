@@ -4,11 +4,16 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
 	"github.com/efficientgo/core/errors"
 	"github.com/oklog/run"
 )
+
+func toString[T fmt.Stringer](v T) string {
+	return v.String()
+}
 
 func main() {
 	log.SetFlags(0)
